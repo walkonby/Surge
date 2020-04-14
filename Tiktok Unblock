@@ -3,10 +3,11 @@
 #!system=ios
 
 [URL Rewrite]
+(.*video_id=\w{32})(.*watermark=)(.*) $1 302
 (?<=(carrier|current|account|sys)_region=)CN(?=&) JP 307
 (?<=_region1=)CN(?=&) JP 307
 (?<=&app_version=)15..(?=.?.?&) 1 307
 (?<=\?version_code=)15..(?=.?.?&) 1 307
 
 [MITM]
-hostname = %INSERT% *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com,*.pstatp.com
+hostname = %INSERT% *.musical.ly, *.tiktokv.com, *.tiktokcdn.com, *.byteoversea.com, *.snssdk.com,*.pstatp.com, *.amemv.com
