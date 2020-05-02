@@ -3,10 +3,9 @@
 #!system=ios
 
 [URL Rewrite]
-(?<=(carrier|current|account|sys)_region=)CN(?=&) US 307
-(?<=(carrier|current|account|sys)_region1=)CN(?=&) US 307
+(?<=_region=)CN(?=&) US 307
 (?<=&app_version=)15..(?=.?.?&) 1 307
 (?<=\?version_code=)15..(?=.?.?&) 1 307
 
 [MITM]
-hostname = %INSERT% *.musical.ly, *.tiktokv.com, *.tiktokcdn.com, *.byteoversea.com, *.snssdk.com,
+hostname = %APPEND% *.musical.ly, *.tiktokv.com, *.tiktokcdn.com, *.byteoversea.com, *.snssdk.com
