@@ -5,8 +5,8 @@
 [URL Rewrite]
 (?<=_region=)CN(?=&) US 307
 (?<=_region1=)CN(?=&) US 307
-(?<=&app_version=)15..(?=.?.?&) 1 307
-(?<=\?version_code=)15..(?=.?.?&) 1 307
+(?<=&app_version=)16..(?=.?.?&) 1 307
+(?<=\?version_code=)16..(?=.?.?&) 1 307
 
 [MITM]
 hostname = %APPEND% *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com
