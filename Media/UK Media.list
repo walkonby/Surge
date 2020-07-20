@@ -12,4 +12,22 @@ DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
 DOMAIN-SUFFIX,bbci.co
 DOMAIN-SUFFIX,bbci.co.uk
 
-# 
+# ITV
+USER-AGENT,ITV_Player*
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,toots-a.akamaihd.net
+DOMAIN-SUFFIX,itvstatic.com
+DOMAIN-SUFFIX,api.itv
+
+#Channel 4
+USER-AGENT,All4_iOS*
+DOMAIN-SUFFIX,channel4.com
+DOMAIN-SUFFIX,redbeemedia.com
+DOMAIN-SUFFIX,c4assets.com
+DOMAIN-SUFFIX,braze.eu
+
+#Channel 5
+USER-AGENT,my5-mobile-enterprise*
+DOMAIN-SUFFIX,channel5.com
+DOMAIN-SUFFIX,omtrdc.com
+DOMAIN-SUFFIX,akamaihd.net
