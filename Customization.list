@@ -1,1 +1,19 @@
+# ITV
+USER-AGENT,ITV*
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,toots-a.akamaihd.net
+DOMAIN-SUFFIX,itvstatic.com
+DOMAIN-SUFFIX,api.itv
 
+#Channel 4
+USER-AGENT,All4*
+DOMAIN-SUFFIX,channel4.com
+DOMAIN-SUFFIX,redbeemedia.com
+DOMAIN-SUFFIX,c4assets.com
+DOMAIN-SUFFIX,braze.eu
+
+#Channel 5
+USER-AGENT,my5*
+DOMAIN-SUFFIX,channel5.com
+DOMAIN-SUFFIX,omtrdc.com
+DOMAIN-SUFFIX,akamaihd.net
